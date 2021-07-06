@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePostActivity">
+
+    <EditText
+        android:id="@+id/postInput"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/edittext_roundshape"
+        android:gravity="top"
+        android:hint="@string/what_do_you_want_to_talk_about"
+        android:inputType="text"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/postButton"
+        android:layout_margin="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/postInput"
+        android:background="@drawable/edittext_roundshape"
+        android:text="@string/post"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

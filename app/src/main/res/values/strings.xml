@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login App</string>
+
+    <string name="what_do_you_want_to_talk_about">What do you want to talk about?</string>
+    <string name="post">POST</string>
+    <string name="create_post">Create Post</string>
+
+
+</resources>
