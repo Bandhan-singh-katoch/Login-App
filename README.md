@@ -1,3 +1,4 @@
 # Login-App
-basically this is android app and it is social media app.
-and currently is under process.....
+This is social media Android app written in Kotlin language.. 
+This app is currently under process.....
+But the signin and sign up option works. 
